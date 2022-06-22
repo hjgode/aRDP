@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iiordanov.aRDP"
+    android:installLocation="auto"
+    android:targetSandboxVersion="2"
+    android:versionCode="115104"
+    android:versionName="v5.1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="31" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name="com.iiordanov.bVNC.App"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:banner="@drawable/banner_ardp"
+        android:debuggable="true"
+        android:icon="@drawable/icon_ardp"
+        android:label="@string/ardp_app_name"
+        android:testOnly="true"
+        android:theme="@android:style/Theme.DeviceDefault" >
+        <activity
+            android:name="com.undatech.opaque.ConnectionGridActivity"
+            android:configChanges="keyboardHidden"
+            android:exported="true"
+            android:label="@string/ardp_app_name"
+            android:resizeableActivity="true"
+            android:theme="@android:style/Theme.DeviceDefault" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.iiordanov.bVNC.aRDP"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/ardp_app_name"
+            android:resizeableActivity="true"
+            android:screenOrientation="unspecified"
+            android:theme="@android:style/Theme.DeviceDefault"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.iiordanov.bVNC.RemoteCanvasActivity"
+            android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+            android:exported="true"
+            android:resizeableActivity="true"
+            android:screenOrientation="unspecified"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="rdp" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="intent" />
+                <data android:mimeType="application/vnd.rdp" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.rdp"
+                    android:scheme="http" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.rdp"
+                    android:scheme="file" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.RDP"
+                    android:scheme="http" />
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.RDP"
+                    android:scheme="file" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.iiordanov.bVNC.ConnectionListActivity"
+            android:exported="true"
+            android:label="@string/shortcut_label_rdp"
+            android:resizeableActivity="true"
+            android:theme="@android:style/Theme.DeviceDefault"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.iiordanov.pubkeygenerator.GeneratePubkeyActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_pubkey_generator"
+            android:resizeableActivity="true"
+            android:screenOrientation="unspecified"
+            android:theme="@android:style/Theme.DeviceDefault"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <uses-library
+            android:name="com.sec.android.app.multiwindow"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.sec.android.support.multiwindow"
+            android:value="true" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W"
+            android:resource="@dimen/app_defaultsize_w" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H"
+            android:resource="@dimen/app_defaultsize_h" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W"
+            android:resource="@dimen/app_minimumsize_w" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H"
+            android:resource="@dimen/app_minimumsize_h" />
+
+        <activity
+            android:name="com.iiordanov.bVNC.GlobalPreferencesActivity"
+            android:theme="@style/Theme.AppCompat" />
+
+        <meta-data
+            android:name="com.samsung.android.keepalive.density"
+            android:value="true" />
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.iiordanov.aRDP.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

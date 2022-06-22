@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.undatech.remoteClientUi" >
+5
+6    <uses-sdk
+6-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:18:5-63
+7        android:minSdkVersion="21"
+7-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:18:5-63
+8        android:targetSdkVersion="31"
+8-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:18:5-63
+9        tools:overrideLibrary="com.github.luben.zstd" />
+9-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:18:15-60
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:6:5-67
+11-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:7:5-66
+12-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:7:22-63
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:8:5-79
+13-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:9:5-71
+14-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:9:22-68
+15
+16    <uses-feature
+16-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:11:5-13:36
+17        android:name="android.hardware.touchscreen"
+17-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:12:9-52
+18        android:required="false" />
+18-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:13:9-33
+19    <uses-feature
+19-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:14:5-16:36
+20        android:name="android.hardware.microphone"
+20-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:15:9-51
+21        android:required="false" />
+21-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:16:9-33
+22
+23    <application>
+23-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:20:5-61:19
+24        <activity
+24-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:21:9-28:57
+25            android:name="com.iiordanov.pubkeygenerator.GeneratePubkeyActivity"
+25-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:22:13-80
+26            android:configChanges="keyboardHidden|orientation"
+26-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:23:13-63
+27            android:resizeableActivity="true"
+27-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:24:13-46
+28            android:screenOrientation="unspecified"
+28-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:25:13-52
+29            android:theme="@android:style/Theme.DeviceDefault"
+29-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:26:13-63
+30            android:windowSoftInputMode="stateHidden|adjustResize"
+30-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:27:13-67
+31            tools:replace="android:screenOrientation" />
+31-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:28:13-54
+32
+33        <uses-library
+33-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:29:9-31:40
+34            android:name="com.sec.android.app.multiwindow"
+34-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:30:13-59
+35            android:required="false" />
+35-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:31:13-37
+36
+37        <meta-data
+37-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:33:9-35:36
+38            android:name="com.sec.android.support.multiwindow"
+38-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:34:13-63
+39            android:value="true" />
+39-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:35:13-33
+40        <meta-data
+40-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:36:9-38:59
+41            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W"
+41-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:37:13-70
+42            android:resource="@dimen/app_defaultsize_w" />
+42-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:38:13-56
+43        <meta-data
+43-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:39:9-41:59
+44            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H"
+44-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:40:13-70
+45            android:resource="@dimen/app_defaultsize_h" />
+45-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:41:13-56
+46        <meta-data
+46-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:42:9-44:59
+47            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W"
+47-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:43:13-70
+48            android:resource="@dimen/app_minimumsize_w" />
+48-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:44:13-56
+49        <meta-data
+49-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:45:9-47:59
+50            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H"
+50-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:46:13-70
+51            android:resource="@dimen/app_minimumsize_h" />
+51-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:47:13-56
+52
+53        <activity
+53-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:49:9-51:35
+54            android:name="com.undatech.remoteClientUi.presentation.ShortcutsActivity"
+54-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:50:13-59
+55            tools:node="remove" />
+55-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:51:13-32
+56        <activity
+56-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:53:9-56:15
+57            android:name="com.iiordanov.bVNC.GlobalPreferencesActivity"
+57-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:54:13-72
+58            android:theme="@style/Theme.AppCompat" />
+58-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:55:13-51
+59
+60        <meta-data
+60-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:58:9-60:36
+61            android:name="com.samsung.android.keepalive.density"
+61-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:59:13-65
+62            android:value="true" />
+62-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/src/main/AndroidManifest.xml:60:13-33
+63    </application>
+64
+65</manifest>

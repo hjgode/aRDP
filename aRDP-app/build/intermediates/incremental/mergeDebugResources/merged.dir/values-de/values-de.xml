@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="colors_array">
+        <item>Palette (8 Bit)</item>
+        <item>High Color (15 Bit)</item>
+        <item>High Color (16 Bit)</item>
+        <item>True Color (24 Bit)</item>
+        <item>Highest Quality (32 Bit)</item>
+    </string-array>
+    <string-array name="redirect_sound_array">
+        <item>Nicht abspielen</item>
+        <item>Auf Server abspielen</item>
+        <item>Auf Client abspielen</item>
+    </string-array>
+    <string-array name="resolutions_array">
+        <item>automatisch</item>
+        <item>an Bildschirm anpassen</item>
+        <item>Benutzerdefiniert</item>
+        <item>640x480</item>
+        <item>720x480</item>
+        <item>800x600</item>
+        <item>1024x768</item>
+        <item>1280x1024</item>
+        <item>1440x900</item>
+        <item>1920x1080</item>
+        <item>1920x1200</item>
+    </string-array>
+    <string-array name="security_array">
+        <item>Automatisch</item>
+        <item>RDP</item>
+        <item>TLS</item>
+        <item>NLA</item>
+    </string-array>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Alle anzeigen"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"AUS"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AN"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Strg +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Löschen"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Eingabetaste"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funktionstaste +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta-Taste +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Umschalttaste +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Leertaste"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym-Taste +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menütaste +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Suchen…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Suche"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Anfrage senden"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Teilen mit"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Mit <ns1:g id="APPLICATION_NAME">%s</ns1:g> teilen"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="cont">Fortfahren</string>
+    <string msgid="6083905920877235314" name="copy">"Kopieren"</string>
+    <string name="debug_level">Debug Stufe</string>
+    <string name="dlg_dont_show_again">Nicht noch einmal nachfragen</string>
+    <string name="dlg_msg_clear_cert_cache">Wollen sie wirklich alle gespeicherten Zertifikate löschen?</string>
+    <string name="dlg_msg_connecting">Verbinden …</string>
+    <string name="dlg_msg_create_bookmark_after_qc">Die Verbindungseinstellungen wurden nicht gespeichert! Jetzt speichern?</string>
+    <string name="dlg_msg_create_shortcut">Verknüpfungsname:</string>
+    <string name="dlg_msg_exit">Wollen sie die Anwendung wirklich beenden?</string>
+    <string name="dlg_msg_logging_in">Einloggen …</string>
+    <string name="dlg_msg_verify_certificate">Die Identität des Servers konnte nicht geprüft werden. Trotzdem verbinden?</string>
+    <string name="dlg_save_bookmark">Wollen sie alle Änderungen der Verbindungseinstelleungen speichern?</string>
+    <string name="dlg_title_about">Über aFreeRDP</string>
+    <string name="dlg_title_clear_cert_cache">Lösche Zertifikate?</string>
+    <string name="dlg_title_create_bookmark_after_qc">Verbindungseinstellungen speichern?</string>
+    <string name="dlg_title_create_shortcut">Verknüpfung erzeugen</string>
+    <string name="dlg_title_credentials">Bitte geben sie ihre Zugangsdaten ein:</string>
+    <string name="dlg_title_exit">Anwendung beenden?</string>
+    <string name="dlg_title_save_bookmark">Verbindung speichern?</string>
+    <string name="dlg_title_verify_certificate">Prüfe Zertifikat</string>
+    <string name="error_bookmark_incomplete"><i><b>Abbrechen</b></i> um Einstellungen zu verwerfen\n<i><b>Fortfahren</b></i> um weiter zu editieren</string>
+    <string name="error_bookmark_incomplete_title">Verlassen ohne zu speichern?</string>
+    <string name="error_connection_failure">Konnte keine Verbindung zum Server herstellen!</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Erweitert"</string>
+    <string name="info_capabilities_changed">Die Bildschirmeinstellungen mussten angepasst werden, da der Server die gewählten nicht unterstützt!</string>
+    <string name="info_reset_failed">Konnte Zertifikatcache nicht löschen!</string>
+    <string name="info_reset_success">Lösche Zertifikatcache!</string>
+    <string name="list_placeholder_add_bookmark">Verbindung hinzufügen</string>
+    <string name="list_placeholder_connecting">Verbinde …</string>
+    <string name="list_placeholder_connection_error">Verbindung unterbrochen</string>
+    <string name="list_placeholder_disconnecting">Trenne Verbundung …</string>
+    <string name="list_placeholder_invalid_username">Ungültiger Benutzername</string>
+    <string name="list_placeholder_login">Login</string>
+    <string name="list_placeholder_no_servers">Keine Server</string>
+    <string name="list_placeholder_wrong_password">Falsches Passwort</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="menu_about">Impressum</string>
+    <string name="menu_app_settings">Einstellungen</string>
+    <string name="menu_connect">Verbinden</string>
+    <string name="menu_delete">Löschen</string>
+    <string name="menu_disconnect">Verbindung trennen</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_exit">Beenden</string>
+    <string name="menu_ext_keyboard">Funktionstasten</string>
+    <string name="menu_help">Hilfe</string>
+    <string name="menu_home">home</string>
+    <string name="menu_new_bookmark">Neue Verbindung</string>
+    <string name="menu_sys_keyboard">Tastatur</string>
+    <string name="menu_title_bookmark">Verbindung</string>
+    <string name="menu_touch_pointer">Touch Pointer</string>
+    <string name="no">Nein</string>
+    <string msgid="6573031135582639649" name="not_set">"Nicht festgelegt"</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" in Zwischenablage kopiert."</string>
+    <string name="preference_title_client">Client</string>
+    <string name="preference_title_client_name">Client Name</string>
+    <string name="resolution_automatic">automatisch</string>
+    <string name="resolution_custom">Benutzerdefiniert</string>
+    <string name="resolution_fit">an Bildschirm anpassen</string>
+    <string name="search_hint">Mit Computer verbinden</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Suche"</string>
+    <string name="section_active_sessions">Aktive Sitzungen</string>
+    <string name="section_bookmarks">Manuelle Verbindungen</string>
+    <string name="settings_advanced">Erweitert</string>
+    <string name="settings_async_channel">Async channel</string>
+    <string name="settings_async_input">Async input</string>
+    <string name="settings_async_update">Async update</string>
+    <string name="settings_cat_advanced">Erweiterte Einstellungen</string>
+    <string name="settings_cat_client">Client</string>
+    <string name="settings_cat_credentials">Zugangsdaten</string>
+    <string name="settings_cat_gateway">Gateway</string>
+    <string name="settings_cat_host">Host</string>
+    <string name="settings_cat_performance">Leistungseinstellungen</string>
+    <string name="settings_cat_power">Energiesparen</string>
+    <string name="settings_cat_screen">Bildschirm Einstellungen</string>
+    <string name="settings_cat_security">Sicherheit</string>
+    <string name="settings_cat_settings">Einstellungen</string>
+    <string name="settings_cat_ui">Benutzeroberfläche</string>
+    <string name="settings_colors">Farben</string>
+    <string name="settings_console_mode">Konsolenmodus</string>
+    <string name="settings_credentials">Zugangsdaten</string>
+    <string name="settings_debug">Debug Einstellungen</string>
+    <string name="settings_description_after_minutes">Nach %1$d Minuten</string>
+    <string name="settings_description_disabled">Deaktiviert</string>
+    <string name="settings_domain">Domäne</string>
+    <string name="settings_enable_3g_settings">3G Einstellungen</string>
+    <string name="settings_enable_gateway_settings">Aktiviere Gateway</string>
+    <string name="settings_gateway_settings">Gateway Einstellungen</string>
+    <string name="settings_height">Höhe</string>
+    <string name="settings_hostname">Host</string>
+    <string name="settings_label">Label</string>
+    <string name="settings_password">Passwort</string>
+    <string name="settings_password_empty">nicht gesetzt</string>
+    <string name="settings_password_present">*******</string>
+    <string name="settings_perf_desktop_composition">Desktop Composition</string>
+    <string name="settings_perf_font_smoothing">Kantenglättung</string>
+    <string name="settings_perf_full_window_drag">Zeige Fensterinhalt während</string>
+    <string name="settings_perf_menu_animation">Menü Animation</string>
+    <string name="settings_perf_remotefx">RemoteFX</string>
+    <string name="settings_perf_theming">Visuelle Stile</string>
+    <string name="settings_perf_wallpaper">Desktop Hintergrund</string>
+    <string name="settings_performance">Leistung</string>
+    <string name="settings_performance_3g">3G Leistung</string>
+    <string name="settings_port">Port</string>
+    <string name="settings_power_disconnect_timeout">Schließe ungenutzte Verbindungen</string>
+    <string name="settings_redirect_microphone">Mikrophon umleiten</string>
+    <string name="settings_redirect_sdcard">SDCard umleiten</string>
+    <string name="settings_redirect_sound">Ton umleiten</string>
+    <string name="settings_remote_program">Remote Program</string>
+    <string name="settings_resolution">Auflösung</string>
+    <string name="settings_screen">Bildschirm</string>
+    <string name="settings_screen_3g">3G Bildschirm</string>
+    <string name="settings_security">Sicherheit</string>
+    <string name="settings_security_accept_certificates">Akzeptiere alle Zertifikate</string>
+    <string name="settings_security_clear_certificate_cache">Lösche Zertifikat Cache</string>
+    <string name="settings_ui_ask_on_exit">Zeige Dialog beim Beenden</string>
+    <string name="settings_ui_auto_scroll_touchpointer">Touch Zeiger automatischer Bildlauf</string>
+    <string name="settings_ui_hide_action_bar">Aktionsleiste ausblenden</string>
+    <string name="settings_ui_hide_status_bar">verstecke Statusleiste</string>
+    <string name="settings_ui_hide_zoom_controls">verstecke Zoom Tasten</string>
+    <string name="settings_ui_invert_scrolling">Invertiere Bildlauf</string>
+    <string name="settings_ui_swap_mouse_buttons">Vertausche Maustasten</string>
+    <string name="settings_username">Benutzername</string>
+    <string name="settings_width">Breite</string>
+    <string name="settings_work_dir">Arbeitsverzeichnis</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="title_about">Impressum</string>
+    <string name="title_application_settings">Einstellungen</string>
+    <string name="title_bookmark_settings">Verbindungseinstellungen</string>
+    <string name="title_create_shortcut">RDP Verbindungen</string>
+    <string name="title_help">Hilfe</string>
+    <string name="title_home">aFreeRDP - FreeRDP für Android</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"AUS"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"AN"</string>
+    <string name="yes">Ja</string>
+</resources>

@@ -1,0 +1,547 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:2:1-130:12
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:2:1-130:12
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:2:1-130:12
+MERGED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-65:12
+MERGED from [:remoteClientLib] /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/d0d460023e3ef35ffbf3e379509b0171/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:pubkeyGenerator] /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-20:12
+MERGED from [:remoteClientLib:jni:libs:deps:FreeRDP:client:Android:Studio:freeRDPCore] /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/jni/libs/deps/FreeRDP/client/Android/Studio/freeRDPCore/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.preference:preference-ktx:1.2.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/96e9aef32f22a00057d75c120e2cc768/preference-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.2.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/c93942c422880f0b76e2a4ceca88e1f8/preference-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/42f3c98660a7aee3a29b94f7a2d17695/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/f0ecc9a8e11f2eab8f8fcceb2eb3d100/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/ecacbc087b2017bbe20094a17a6c93fa/appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/dbf46e3fd15a6585696080e7dc0e09a0/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/c2d9fe655966454158b103514b0de6d2/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [net.zetetic:android-database-sqlcipher:4.5.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/a33fdb402891140c7d47fbe570d73a4a/android-database-sqlcipher-4.5.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.sqlite:sqlite-ktx:2.2.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/cecb15477cca752affe23a1592d02e64/sqlite-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.luben:zstd-jni:1.4.3-1] /home/hgode/.gradle/caches/transforms-2/files-2.1/4e605542a449574f69d8ff8822a3ea9a/zstd-jni-1.4.3-1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /home/hgode/.gradle/caches/transforms-2/files-2.1/f18c6add72f60b98e663ec3cd28a6910/fragment-ktx-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.2] /home/hgode/.gradle/caches/transforms-2/files-2.1/6b234df86cf0f045da550b2bb9c276b4/activity-ktx-1.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/f22a7b6372390721effca7472600f96d/core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/a40b5b1171678900703f469ae84b9abc/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4ac9afc7a05966fbacc0b53be2fc059a/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/237e4a2c5c83ee48b00e7da7428dda3c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/5f96f82aeec2f2f717e3b5332009066c/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4080d36339d757080e2d63a516e9e56c/window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/d8630ece2d8b0420be7967e5cb6be127/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/hgode/.gradle/caches/transforms-2/files-2.1/afd3c6b322b8ab84dd2bd68644e18567/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /home/hgode/.gradle/caches/transforms-2/files-2.1/bb3fd3159c25c5076d2031f03d49fc01/activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/9ce01ab9554f96d1cca56fbe73775419/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/052cdcd584264d9ce105f7f0d0612d5d/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.media:media:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1a5e98d119846e46e164c7c1146a54fa/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/a328cc427382a98bb1e55183d72d7334/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/205c14d0cd57426e9d033e629b1687db/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/0d4ee9afa5ff7eadba5295c357c58a1b/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1d25158afb67353d67d4222d199d8db6/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/e8270a585a70ef16d1b6338e8ce3db0f/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/44cf079c7ba7b7105a2e512573d8c461/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/2fc1676dca4ffd5b9d4e977233e27b87/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/71d780bd17e00adc71ef4f659bd17ac9/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/511d65b788f4bcfb1462d61a0c81addd/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/ffd2bddcf38fab7656b49015c9759d78/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/055ca275df145ae1571dde68c333abff/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/58b30bd6e512aaae6acf1efe4a7fd4f1/savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/3b56a9a3ace481e03d920107f14efb89/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/11ba503c5ac29b78292809e3a5a7e6f2/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/7440c82e710a47f1e7bc6f0444b15c65/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/90e61d68156099218b208a8766a6c0a4/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/3e90396bba1e4e9a05c7da2da33153e5/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/27260ac64dee4a56be771f5fa81e3e19/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1083dd344560b7b471d9a088652d678d/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/2fd4c713be467846108572ace5f696f2/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/5bc9915036256c26f5abbb90c4e3b165/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/ca6dd28a1b65ae73574ac3cba49ae669/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/bde709b234bf8ae5dbe243a8131c1f03/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/f7cedbad86037d89983bda3d9f009f87/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1783863d2dba759c560a9dafa15e37dc/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/dac94b3da422e7e155ea20c9621f3af7/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/46e06149e28f23d15ab27df4b90ee043/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/fc13609b9575f5d5100e36b51d6ba0ee/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/65d488816d8b0ccf6f8ea9720dfa1cfa/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:2:1-130:12
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:2:1-130:12
+	package
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:4:5-33
+	android:versionName
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:7:5-33
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:6:5-33
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml
+	android:installLocation
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:5:5-35
+uses-permission
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:9:5-47
+REJECTED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+REJECTED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-66
+REJECTED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+REJECTED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-71
+REJECTED from [:remoteClientLib] /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-67
+REJECTED from [:remoteClientLib] /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-66
+REJECTED from [:remoteClientLib] /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-79
+REJECTED from [:remoteClientLib] /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-71
+	tools:node
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:9:22-44
+uses-permission#android.permission.INTERNET
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:11:22-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:13:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:14:22-68
+uses-feature#android.hardware.touchscreen
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:16:5-18:36
+MERGED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-18:36
+MERGED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-18:36
+MERGED from [:remoteClientLib] /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-17:36
+MERGED from [:remoteClientLib] /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:17:9-52
+uses-feature#android.hardware.microphone
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:19:5-21:36
+MERGED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-21:36
+MERGED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-21:36
+MERGED from [:remoteClientLib] /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:5-20:36
+MERGED from [:remoteClientLib] /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:5-20:36
+	android:required
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:21:9-33
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:20:9-51
+uses-feature#android.software.leanback
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:23:9-49
+supports-screens
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:26:5-31:40
+	android:largeScreens
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:28:9-36
+	android:smallScreens
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:30:9-36
+	android:normalScreens
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:29:9-37
+	android:xlargeScreens
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:31:9-37
+	android:anyDensity
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:27:9-34
+application
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:33:5-129:19
+MERGED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:5-63:19
+MERGED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:5-63:19
+MERGED from [:pubkeyGenerator] /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-18:19
+MERGED from [:pubkeyGenerator] /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-18:19
+MERGED from [androidx.window:window:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4080d36339d757080e2d63a516e9e56c/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4080d36339d757080e2d63a516e9e56c/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/511d65b788f4bcfb1462d61a0c81addd/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/511d65b788f4bcfb1462d61a0c81addd/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/7440c82e710a47f1e7bc6f0444b15c65/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/7440c82e710a47f1e7bc6f0444b15c65/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/3e90396bba1e4e9a05c7da2da33153e5/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/3e90396bba1e4e9a05c7da2da33153e5/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/27260ac64dee4a56be771f5fa81e3e19/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/27260ac64dee4a56be771f5fa81e3e19/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/511d65b788f4bcfb1462d61a0c81addd/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:38:9-46
+	android:icon
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:37:9-43
+	android:allowBackup
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:35:9-36
+	android:banner
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:36:9-47
+	android:theme
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:39:9-59
+	tools:replace
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:40:9-52
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:34:9-46
+activity#com.undatech.opaque.ConnectionGridActivity
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:41:9-55:20
+	android:label
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:45:13-50
+	android:exported
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:44:13-36
+	android:resizeableActivity
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:46:13-46
+	android:configChanges
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:43:13-51
+	android:theme
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:47:13-63
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:42:13-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER+category:name:android.intent.category.MULTIWINDOW_LAUNCHER
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:48:13-54:29
+action#android.intent.action.MAIN
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:49:17-69
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:49:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:51:17-77
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:51:27-74
+category#android.intent.category.MULTIWINDOW_LAUNCHER
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:52:17-89
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:52:27-86
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:53:17-86
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:53:27-83
+activity#com.iiordanov.bVNC.aRDP
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:56:9-63:70
+	android:screenOrientation
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:61:13-52
+	android:label
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:59:13-50
+	android:windowSoftInputMode
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:63:13-67
+	android:resizeableActivity
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:60:13-46
+	android:configChanges
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:58:13-63
+	android:theme
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:62:13-63
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:57:13-51
+activity#com.iiordanov.bVNC.RemoteCanvasActivity
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:64:9-116:20
+	android:screenOrientation
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:69:13-52
+	android:windowSoftInputMode
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:71:13-67
+	android:exported
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:67:13-36
+	android:resizeableActivity
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:68:13-46
+	android:configChanges
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:66:13-225
+	android:theme
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:70:13-44
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:65:13-67
+intent-filter#action:name:android.intent.action.VIEW
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:72:13-74:29
+action#android.intent.action.VIEW
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:73:17-69
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:73:25-66
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:rdp
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:75:13-82:29
+category#android.intent.category.DEFAULT
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:78:17-76
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:78:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:79:17-78
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:79:27-75
+data
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:81:17-46
+	android:host
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:99:21-37
+	android:scheme
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:81:23-43
+	android:pathPattern
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:100:21-51
+	android:mimeType
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:90:23-61
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:mimeType:application/vnd.rdp+data:scheme:intent
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:83:13-91:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:host:*+data:host:*+data:host:*+data:mimeType:*/*+data:pathPattern:.*\\.RDP+data:pathPattern:.*\\.RDP+data:pathPattern:.*\\.rdp+data:pathPattern:.*\\.rdp+data:scheme:file+data:scheme:file+data:scheme:http+data:scheme:http
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:92:13-115:29
+activity#com.iiordanov.bVNC.ConnectionListActivity
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:117:9-128:20
+	android:label
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:120:13-55
+	android:windowSoftInputMode
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:123:13-67
+	android:exported
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:119:13-36
+	android:resizeableActivity
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:121:13-46
+	android:theme
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:122:13-63
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:118:13-69
+intent-filter#action:name:android.intent.action.CREATE_SHORTCUT+category:name:android.intent.category.DEFAULT
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:124:13-127:29
+action#android.intent.action.CREATE_SHORTCUT
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:125:17-80
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:125:25-77
+uses-sdk
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml
+MERGED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:6:5-9:57
+MERGED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:6:5-9:57
+MERGED from [:remoteClientLib] /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:remoteClientLib] /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/build/intermediates/library_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.multidex:multidex:2.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/d0d460023e3ef35ffbf3e379509b0171/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/d0d460023e3ef35ffbf3e379509b0171/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [:pubkeyGenerator] /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:pubkeyGenerator] /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:remoteClientLib:jni:libs:deps:FreeRDP:client:Android:Studio:freeRDPCore] /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/jni/libs/deps/FreeRDP/client/Android/Studio/freeRDPCore/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:remoteClientLib:jni:libs:deps:FreeRDP:client:Android:Studio:freeRDPCore] /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/jni/libs/deps/FreeRDP/client/Android/Studio/freeRDPCore/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.preference:preference-ktx:1.2.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/96e9aef32f22a00057d75c120e2cc768/preference-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.2.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/96e9aef32f22a00057d75c120e2cc768/preference-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/c93942c422880f0b76e2a4ceca88e1f8/preference-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/c93942c422880f0b76e2a4ceca88e1f8/preference-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/42f3c98660a7aee3a29b94f7a2d17695/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/42f3c98660a7aee3a29b94f7a2d17695/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/f0ecc9a8e11f2eab8f8fcceb2eb3d100/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/f0ecc9a8e11f2eab8f8fcceb2eb3d100/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/ecacbc087b2017bbe20094a17a6c93fa/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/ecacbc087b2017bbe20094a17a6c93fa/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/dbf46e3fd15a6585696080e7dc0e09a0/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/dbf46e3fd15a6585696080e7dc0e09a0/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/c2d9fe655966454158b103514b0de6d2/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/c2d9fe655966454158b103514b0de6d2/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [net.zetetic:android-database-sqlcipher:4.5.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/a33fdb402891140c7d47fbe570d73a4a/android-database-sqlcipher-4.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [net.zetetic:android-database-sqlcipher:4.5.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/a33fdb402891140c7d47fbe570d73a4a/android-database-sqlcipher-4.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.sqlite:sqlite-ktx:2.2.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/cecb15477cca752affe23a1592d02e64/sqlite-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-ktx:2.2.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/cecb15477cca752affe23a1592d02e64/sqlite-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.luben:zstd-jni:1.4.3-1] /home/hgode/.gradle/caches/transforms-2/files-2.1/4e605542a449574f69d8ff8822a3ea9a/zstd-jni-1.4.3-1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.luben:zstd-jni:1.4.3-1] /home/hgode/.gradle/caches/transforms-2/files-2.1/4e605542a449574f69d8ff8822a3ea9a/zstd-jni-1.4.3-1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /home/hgode/.gradle/caches/transforms-2/files-2.1/f18c6add72f60b98e663ec3cd28a6910/fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /home/hgode/.gradle/caches/transforms-2/files-2.1/f18c6add72f60b98e663ec3cd28a6910/fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] /home/hgode/.gradle/caches/transforms-2/files-2.1/6b234df86cf0f045da550b2bb9c276b4/activity-ktx-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] /home/hgode/.gradle/caches/transforms-2/files-2.1/6b234df86cf0f045da550b2bb9c276b4/activity-ktx-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/f22a7b6372390721effca7472600f96d/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/f22a7b6372390721effca7472600f96d/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/a40b5b1171678900703f469ae84b9abc/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/a40b5b1171678900703f469ae84b9abc/lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4ac9afc7a05966fbacc0b53be2fc059a/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4ac9afc7a05966fbacc0b53be2fc059a/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/237e4a2c5c83ee48b00e7da7428dda3c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/237e4a2c5c83ee48b00e7da7428dda3c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/5f96f82aeec2f2f717e3b5332009066c/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/5f96f82aeec2f2f717e3b5332009066c/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4080d36339d757080e2d63a516e9e56c/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4080d36339d757080e2d63a516e9e56c/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/d8630ece2d8b0420be7967e5cb6be127/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/d8630ece2d8b0420be7967e5cb6be127/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/hgode/.gradle/caches/transforms-2/files-2.1/afd3c6b322b8ab84dd2bd68644e18567/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/hgode/.gradle/caches/transforms-2/files-2.1/afd3c6b322b8ab84dd2bd68644e18567/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/hgode/.gradle/caches/transforms-2/files-2.1/bb3fd3159c25c5076d2031f03d49fc01/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/hgode/.gradle/caches/transforms-2/files-2.1/bb3fd3159c25c5076d2031f03d49fc01/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/9ce01ab9554f96d1cca56fbe73775419/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/9ce01ab9554f96d1cca56fbe73775419/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/052cdcd584264d9ce105f7f0d0612d5d/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/052cdcd584264d9ce105f7f0d0612d5d/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.media:media:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1a5e98d119846e46e164c7c1146a54fa/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1a5e98d119846e46e164c7c1146a54fa/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/a328cc427382a98bb1e55183d72d7334/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/a328cc427382a98bb1e55183d72d7334/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/205c14d0cd57426e9d033e629b1687db/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/205c14d0cd57426e9d033e629b1687db/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/0d4ee9afa5ff7eadba5295c357c58a1b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/0d4ee9afa5ff7eadba5295c357c58a1b/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1d25158afb67353d67d4222d199d8db6/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1d25158afb67353d67d4222d199d8db6/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/e8270a585a70ef16d1b6338e8ce3db0f/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/e8270a585a70ef16d1b6338e8ce3db0f/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/44cf079c7ba7b7105a2e512573d8c461/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/44cf079c7ba7b7105a2e512573d8c461/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/2fc1676dca4ffd5b9d4e977233e27b87/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/2fc1676dca4ffd5b9d4e977233e27b87/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/71d780bd17e00adc71ef4f659bd17ac9/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/71d780bd17e00adc71ef4f659bd17ac9/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/511d65b788f4bcfb1462d61a0c81addd/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/511d65b788f4bcfb1462d61a0c81addd/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/ffd2bddcf38fab7656b49015c9759d78/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/ffd2bddcf38fab7656b49015c9759d78/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/055ca275df145ae1571dde68c333abff/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/055ca275df145ae1571dde68c333abff/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/58b30bd6e512aaae6acf1efe4a7fd4f1/savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/58b30bd6e512aaae6acf1efe4a7fd4f1/savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/3b56a9a3ace481e03d920107f14efb89/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/3b56a9a3ace481e03d920107f14efb89/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/11ba503c5ac29b78292809e3a5a7e6f2/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/11ba503c5ac29b78292809e3a5a7e6f2/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/7440c82e710a47f1e7bc6f0444b15c65/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/7440c82e710a47f1e7bc6f0444b15c65/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/90e61d68156099218b208a8766a6c0a4/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/90e61d68156099218b208a8766a6c0a4/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/3e90396bba1e4e9a05c7da2da33153e5/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/3e90396bba1e4e9a05c7da2da33153e5/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/27260ac64dee4a56be771f5fa81e3e19/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/27260ac64dee4a56be771f5fa81e3e19/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1083dd344560b7b471d9a088652d678d/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1083dd344560b7b471d9a088652d678d/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/2fd4c713be467846108572ace5f696f2/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/2fd4c713be467846108572ace5f696f2/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/5bc9915036256c26f5abbb90c4e3b165/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/5bc9915036256c26f5abbb90c4e3b165/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/ca6dd28a1b65ae73574ac3cba49ae669/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/hgode/.gradle/caches/transforms-2/files-2.1/ca6dd28a1b65ae73574ac3cba49ae669/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/bde709b234bf8ae5dbe243a8131c1f03/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/bde709b234bf8ae5dbe243a8131c1f03/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/f7cedbad86037d89983bda3d9f009f87/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/f7cedbad86037d89983bda3d9f009f87/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1783863d2dba759c560a9dafa15e37dc/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1783863d2dba759c560a9dafa15e37dc/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/dac94b3da422e7e155ea20c9621f3af7/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/dac94b3da422e7e155ea20c9621f3af7/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/46e06149e28f23d15ab27df4b90ee043/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/46e06149e28f23d15ab27df4b90ee043/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/fc13609b9575f5d5100e36b51d6ba0ee/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/fc13609b9575f5d5100e36b51d6ba0ee/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/65d488816d8b0ccf6f8ea9720dfa1cfa/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/65d488816d8b0ccf6f8ea9720dfa1cfa/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:9-54
+	android:targetSdkVersion
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml
+activity#com.iiordanov.pubkeygenerator.GeneratePubkeyActivity
+ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-31:57
+MERGED from [:pubkeyGenerator] /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-17:20
+MERGED from [:pubkeyGenerator] /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-17:20
+	android:screenOrientation
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-52
+		REJECTED from [:pubkeyGenerator] /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-50
+	android:label
+		ADDED from [:pubkeyGenerator] /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-68
+	android:windowSoftInputMode
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-67
+	android:resizeableActivity
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-46
+	android:configChanges
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-63
+	android:theme
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-63
+	tools:replace
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-54
+	android:name
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-80
+uses-library#com.sec.android.app.multiwindow
+ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-59
+meta-data#com.sec.android.support.multiwindow
+ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:36
+	android:value
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-33
+	android:name
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-63
+meta-data#com.sec.android.multiwindow.DEFAULT_SIZE_W
+ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-42:59
+	android:resource
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-56
+	android:name
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-70
+meta-data#com.sec.android.multiwindow.DEFAULT_SIZE_H
+ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:9-45:59
+	android:resource
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:13-56
+	android:name
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:13-70
+meta-data#com.sec.android.multiwindow.MINIMUM_SIZE_W
+ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:9-48:59
+	android:resource
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:13-56
+	android:name
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:13-70
+meta-data#com.sec.android.multiwindow.MINIMUM_SIZE_H
+ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:9-51:59
+	android:resource
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:13-56
+	android:name
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:50:13-70
+activity#com.undatech.remoteClientUi.presentation.ShortcutsActivity
+ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:53:9-55:35
+	tools:node
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:55:13-32
+	android:name
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:54:13-86
+activity#com.iiordanov.bVNC.GlobalPreferencesActivity
+ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:9-58:54
+	android:theme
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:13-51
+	android:name
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:13-72
+meta-data#com.samsung.android.keepalive.density
+ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:9-62:36
+	android:value
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:13-33
+	android:name
+		ADDED from [:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-65
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4080d36339d757080e2d63a516e9e56c/window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4080d36339d757080e2d63a516e9e56c/window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4080d36339d757080e2d63a516e9e56c/window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4080d36339d757080e2d63a516e9e56c/window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4080d36339d757080e2d63a516e9e56c/window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4080d36339d757080e2d63a516e9e56c/window-1.0.0/AndroidManifest.xml:29:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/3e90396bba1e4e9a05c7da2da33153e5/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/3e90396bba1e4e9a05c7da2da33153e5/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/27260ac64dee4a56be771f5fa81e3e19/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/27260ac64dee4a56be771f5fa81e3e19/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/3e90396bba1e4e9a05c7da2da33153e5/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/3e90396bba1e4e9a05c7da2da33153e5/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/3e90396bba1e4e9a05c7da2da33153e5/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78

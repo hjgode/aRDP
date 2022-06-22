@@ -1,0 +1,366 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.iiordanov.aRDP"
+4    android:installLocation="auto"
+5    android:versionCode="115104"
+6    android:versionName="v5.1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="31" />
+10-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:10:5-67
+12-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:10:22-64
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:11:5-66
+13-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:11:22-63
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:12:5-79
+14-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:12:22-76
+15    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+15-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:13:5-80
+15-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:13:22-77
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:14:5-71
+16-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:14:22-68
+17
+18    <uses-feature
+18-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:16:5-18:36
+19        android:name="android.hardware.touchscreen"
+19-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:17:9-52
+20        android:required="false" />
+20-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:18:9-33
+21    <uses-feature
+21-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:19:5-21:36
+22        android:name="android.hardware.microphone"
+22-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:20:9-51
+23        android:required="false" />
+23-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:21:9-33
+24    <uses-feature
+24-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:22:5-24:36
+25        android:name="android.software.leanback"
+25-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:23:9-49
+26        android:required="false" />
+26-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:24:9-33
+27
+28    <supports-screens
+28-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:26:5-31:40
+29        android:anyDensity="true"
+29-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:27:9-34
+30        android:largeScreens="true"
+30-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:28:9-36
+31        android:normalScreens="true"
+31-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:29:9-37
+32        android:smallScreens="true"
+32-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:30:9-36
+33        android:xlargeScreens="true" />
+33-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:31:9-37
+34
+35    <application
+35-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:33:5-129:19
+36        android:name="com.iiordanov.bVNC.App"
+36-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:34:9-46
+37        android:allowBackup="false"
+37-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:35:9-36
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.7.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/511d65b788f4bcfb1462d61a0c81addd/core-1.7.0/AndroidManifest.xml:24:18-86
+39        android:banner="@drawable/banner_ardp"
+39-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:36:9-47
+40        android:debuggable="true"
+41        android:icon="@drawable/icon_ardp"
+41-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:37:9-43
+42        android:label="@string/ardp_app_name"
+42-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:38:9-46
+43        android:testOnly="true"
+44        android:theme="@android:style/Theme.DeviceDefault" >
+44-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:39:9-59
+45        <activity
+45-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:41:9-55:20
+46            android:name="com.undatech.opaque.ConnectionGridActivity"
+46-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:42:13-70
+47            android:configChanges="keyboardHidden"
+47-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:43:13-51
+48            android:exported="true"
+48-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:44:13-36
+49            android:label="@string/ardp_app_name"
+49-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:45:13-50
+50            android:resizeableActivity="true"
+50-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:46:13-46
+51            android:theme="@android:style/Theme.DeviceDefault" >
+51-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:47:13-63
+52            <intent-filter>
+52-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:48:13-54:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:49:17-69
+53-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:49:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:51:17-77
+55-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:51:27-74
+56                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
+56-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:52:17-89
+56-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:52:27-86
+57                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+57-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:53:17-86
+57-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:53:27-83
+58            </intent-filter>
+59        </activity>
+60        <activity
+60-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:56:9-63:70
+61            android:name="com.iiordanov.bVNC.aRDP"
+61-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:57:13-51
+62            android:configChanges="orientation|keyboardHidden"
+62-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:58:13-63
+63            android:label="@string/ardp_app_name"
+63-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:59:13-50
+64            android:resizeableActivity="true"
+64-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:60:13-46
+65            android:screenOrientation="unspecified"
+65-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:61:13-52
+66            android:theme="@android:style/Theme.DeviceDefault"
+66-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:62:13-63
+67            android:windowSoftInputMode="stateHidden|adjustResize" />
+67-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:63:13-67
+68        <activity
+68-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:64:9-116:20
+69            android:name="com.iiordanov.bVNC.RemoteCanvasActivity"
+69-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:65:13-67
+70            android:configChanges="colorMode|density|fontScale|fontWeightAdjustment|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+70-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:66:13-225
+71            android:exported="true"
+71-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:67:13-36
+72            android:resizeableActivity="true"
+72-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:68:13-46
+73            android:screenOrientation="unspecified"
+73-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:69:13-52
+74            android:theme="@style/AppTheme"
+74-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:70:13-44
+75            android:windowSoftInputMode="stateHidden|adjustResize" >
+75-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:71:13-67
+76            <intent-filter>
+76-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:72:13-74:29
+77                <action android:name="android.intent.action.VIEW" />
+77-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:73:17-69
+77-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:73:25-66
+78            </intent-filter>
+79            <intent-filter>
+79-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:75:13-82:29
+80                <action android:name="android.intent.action.VIEW" />
+80-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:73:17-69
+80-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:73:25-66
+81
+82                <category android:name="android.intent.category.DEFAULT" />
+82-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:78:17-76
+82-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:78:27-73
+83                <category android:name="android.intent.category.BROWSABLE" />
+83-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:79:17-78
+83-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:79:27-75
+84
+85                <data android:scheme="rdp" />
+85-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:81:17-46
+85-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:81:23-43
+86            </intent-filter>
+87            <intent-filter>
+87-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:83:13-91:29
+88                <action android:name="android.intent.action.VIEW" />
+88-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:73:17-69
+88-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:73:25-66
+89
+90                <category android:name="android.intent.category.DEFAULT" />
+90-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:78:17-76
+90-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:78:27-73
+91                <category android:name="android.intent.category.BROWSABLE" />
+91-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:79:17-78
+91-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:79:27-75
+92
+93                <data android:scheme="intent" />
+93-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:81:17-46
+93-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:81:23-43
+94                <data android:mimeType="application/vnd.rdp" />
+94-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:81:17-46
+94-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:90:23-61
+95            </intent-filter>
+96            <intent-filter>
+96-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:92:13-115:29
+97                <action android:name="android.intent.action.VIEW" />
+97-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:73:17-69
+97-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:73:25-66
+98
+99                <category android:name="android.intent.category.DEFAULT" />
+99-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:78:17-76
+99-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:78:27-73
+100                <category android:name="android.intent.category.BROWSABLE" />
+100-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:79:17-78
+100-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:79:27-75
+101
+102                <data
+102-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:81:17-46
+103                    android:host="*"
+103-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:99:21-37
+104                    android:pathPattern=".*\\.rdp"
+104-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:100:21-51
+105                    android:scheme="http" />
+105-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:81:23-43
+106                <data
+106-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:81:17-46
+107                    android:host="*"
+107-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:99:21-37
+108                    android:pathPattern=".*\\.rdp"
+108-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:100:21-51
+109                    android:scheme="file" />
+109-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:81:23-43
+110                <data
+110-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:81:17-46
+111                    android:host="*"
+111-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:99:21-37
+112                    android:pathPattern=".*\\.RDP"
+112-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:100:21-51
+113                    android:scheme="http" />
+113-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:81:23-43
+114                <data
+114-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:81:17-46
+115                    android:host="*"
+115-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:99:21-37
+116                    android:pathPattern=".*\\.RDP"
+116-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:100:21-51
+117                    android:scheme="file" />
+117-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:81:23-43
+118                <data android:mimeType="*/*" />
+118-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:81:17-46
+118-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:90:23-61
+119            </intent-filter>
+120        </activity>
+121        <activity
+121-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:117:9-128:20
+122            android:name="com.iiordanov.bVNC.ConnectionListActivity"
+122-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:118:13-69
+123            android:exported="true"
+123-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:119:13-36
+124            android:label="@string/shortcut_label_rdp"
+124-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:120:13-55
+125            android:resizeableActivity="true"
+125-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:121:13-46
+126            android:theme="@android:style/Theme.DeviceDefault"
+126-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:122:13-63
+127            android:windowSoftInputMode="stateHidden|adjustResize" >
+127-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:123:13-67
+128            <intent-filter>
+128-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:124:13-127:29
+129                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+129-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:125:17-80
+129-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:125:25-77
+130
+131                <category android:name="android.intent.category.DEFAULT" />
+131-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:78:17-76
+131-->/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/src/main/AndroidManifest.xml:78:27-73
+132            </intent-filter>
+133        </activity>
+134        <activity
+134-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-31:57
+135            android:name="com.iiordanov.pubkeygenerator.GeneratePubkeyActivity"
+135-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-80
+136            android:configChanges="keyboardHidden|orientation"
+136-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-63
+137            android:label="@string/title_activity_pubkey_generator"
+137-->[:pubkeyGenerator] /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-68
+138            android:resizeableActivity="true"
+138-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-46
+139            android:screenOrientation="unspecified"
+139-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-52
+140            android:theme="@android:style/Theme.DeviceDefault"
+140-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-63
+141            android:windowSoftInputMode="stateHidden|adjustResize" />
+141-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-67
+142
+143        <uses-library
+143-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:9-35:40
+144            android:name="com.sec.android.app.multiwindow"
+144-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-59
+145            android:required="false" />
+145-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-37
+146
+147        <meta-data
+147-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:36
+148            android:name="com.sec.android.support.multiwindow"
+148-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-63
+149            android:value="true" />
+149-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-33
+150        <meta-data
+150-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-42:59
+151            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W"
+151-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-70
+152            android:resource="@dimen/app_defaultsize_w" />
+152-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-56
+153        <meta-data
+153-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:9-45:59
+154            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H"
+154-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:13-70
+155            android:resource="@dimen/app_defaultsize_h" />
+155-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:13-56
+156        <meta-data
+156-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:9-48:59
+157            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W"
+157-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:13-70
+158            android:resource="@dimen/app_minimumsize_w" />
+158-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:13-56
+159        <meta-data
+159-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:9-51:59
+160            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H"
+160-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:50:13-70
+161            android:resource="@dimen/app_minimumsize_h" />
+161-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:51:13-56
+162
+163        <activity
+163-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:56:9-58:54
+164            android:name="com.iiordanov.bVNC.GlobalPreferencesActivity"
+164-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:57:13-72
+165            android:theme="@style/Theme.AppCompat" />
+165-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:58:13-51
+166
+167        <meta-data
+167-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:60:9-62:36
+168            android:name="com.samsung.android.keepalive.density"
+168-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:61:13-65
+169            android:value="true" />
+169-->[:bVNC] /home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/library_manifest/debug/AndroidManifest.xml:62:13-33
+170
+171        <uses-library
+171-->[androidx.window:window:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4080d36339d757080e2d63a516e9e56c/window-1.0.0/AndroidManifest.xml:25:9-27:40
+172            android:name="androidx.window.extensions"
+172-->[androidx.window:window:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4080d36339d757080e2d63a516e9e56c/window-1.0.0/AndroidManifest.xml:26:13-54
+173            android:required="false" />
+173-->[androidx.window:window:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4080d36339d757080e2d63a516e9e56c/window-1.0.0/AndroidManifest.xml:27:13-37
+174        <uses-library
+174-->[androidx.window:window:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4080d36339d757080e2d63a516e9e56c/window-1.0.0/AndroidManifest.xml:28:9-30:40
+175            android:name="androidx.window.sidecar"
+175-->[androidx.window:window:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4080d36339d757080e2d63a516e9e56c/window-1.0.0/AndroidManifest.xml:29:13-51
+176            android:required="false" />
+176-->[androidx.window:window:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/4080d36339d757080e2d63a516e9e56c/window-1.0.0/AndroidManifest.xml:30:13-37
+177
+178        <provider
+178-->[androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+179            android:name="androidx.startup.InitializationProvider"
+179-->[androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+180            android:authorities="com.iiordanov.aRDP.androidx-startup"
+180-->[androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+181            android:exported="false" >
+181-->[androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+182            <meta-data
+182-->[androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+183                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+183-->[androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+184                android:value="androidx.startup" />
+184-->[androidx.emoji2:emoji2:1.0.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/1b4a49ed0cb364725c29dc39db26db19/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+185            <meta-data
+185-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/3e90396bba1e4e9a05c7da2da33153e5/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+186                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+186-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/3e90396bba1e4e9a05c7da2da33153e5/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+187                android:value="androidx.startup" />
+187-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/hgode/.gradle/caches/transforms-2/files-2.1/3e90396bba1e4e9a05c7da2da33153e5/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+188        </provider>
+189    </application>
+190
+191</manifest>

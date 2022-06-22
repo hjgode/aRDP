@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/hgode/remote-desktop-clients5/remote-desktop-clients/aRDP-app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/home/hgode/remote-desktop-clients5/remote-desktop-clients/bVNC/build/intermediates/packaged_res/debug/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,219",
+                        "endLines": "4,11",
+                        "endColumns": "12,12",
+                        "endOffsets": "214,652"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml:1:1-15:12
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml:1:1-15:12
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml:1:1-15:12
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml:1:1-15:12
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml:1:1-15:12
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml:1:1-15:12
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml:1:1-15:12
+	package
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml:2:5-44
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml
+application
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml:6:5-13:19
+activity#com.iiordanov.pubkeygenerator.GeneratePubkeyActivity
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml:7:9-12:20
+	android:screenOrientation
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml:9:13-50
+	android:label
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml:11:13-68
+	android:windowSoftInputMode
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml:10:13-67
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml:8:13-51
+uses-sdk
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/pubkeyGenerator/src/main/AndroidManifest.xml

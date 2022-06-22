@@ -1,0 +1,55 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:2:1-12:12
+	package
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:4:5-43
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:7:22-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:9:22-68
+uses-feature#android.hardware.touchscreen
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:10:5-90
+	android:required
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:10:63-87
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:10:19-62
+uses-feature#android.hardware.microphone
+ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:11:5-88
+	android:required
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:11:62-86
+	android:name
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml:11:19-61
+uses-sdk
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml
+INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml
+		ADDED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml
+		INJECTED from /home/hgode/remote-desktop-clients5/remote-desktop-clients/remoteClientLib/src/main/AndroidManifest.xml

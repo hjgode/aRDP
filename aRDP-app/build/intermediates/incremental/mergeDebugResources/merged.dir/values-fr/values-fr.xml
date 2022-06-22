@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="colors_array">
+        <item>"Palette (8 bits)"</item>
+        <item>"Hautes couleurs (15 bits)"</item>
+        <item>"Hautes couleurs (16 bits)"</item>
+        <item>"Couleurs vraies (24 bits)"</item>
+        <item>"Haute qualité (32 bits)"</item>
+    </string-array>
+    <string-array name="redirect_sound_array">
+        <item>Do not play</item>
+        <item>Play on Server</item>
+        <item>Play on Device</item>
+    </string-array>
+    <string-array name="resolutions_array">
+        <item>"Automatique"</item>
+        <item>"Agrandir la fenêtre"</item>
+        <item>"Personalisé"</item>
+        <item>"640x480"</item>
+        <item>"720x480"</item>
+        <item>"800x600"</item>
+        <item>"1024x768"</item>
+        <item>"1280x1024"</item>
+        <item>"1440x900"</item>
+        <item>"1920x1080"</item>
+        <item>"1920x1200"</item>
+    </string-array>
+    <string-array name="security_array">
+        <item>"Automatique"</item>
+        <item>"RDP"</item>
+        <item>"TLS"</item>
+        <item>"NLA"</item>
+    </string-array>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Revenir en haut de la page"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Autres options"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"OK"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Tout afficher"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Sélectionner une application"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"NON"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"OUI"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"supprimer"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"entrée"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fonction+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Méta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Maj+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"espace"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Rechercher…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Effacer la requête"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Requête de recherche"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Rechercher"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Envoyer la requête"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Recherche vocale"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Partager avec"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Partager avec <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Réduire"</string>
+    <string name="cancel">"Annuler"</string>
+    <string name="cont">"Continuer"</string>
+    <string msgid="6083905920877235314" name="copy">"Copier"</string>
+    <string name="debug_level">Debug Level</string>
+    <string name="dlg_dont_show_again">"Ne plus demander"</string>
+    <string name="dlg_msg_clear_cert_cache">"Êtes-vous sûr de vouloir supprimer tous les certificats mis en cache?"</string>
+    <string name="dlg_msg_connecting">"Connexion..."</string>
+    <string name="dlg_msg_create_bookmark_after_qc">"Vos paramètres de connexion n'ont pas été sauvegardés! Voulez-vous les enregistrer?"</string>
+    <string name="dlg_msg_create_shortcut">"Nom du raccourci:"</string>
+    <string name="dlg_msg_exit">"Êtes-vous sûr de vouloir quitter l'application?"</string>
+    <string name="dlg_msg_logging_in">"Connexion..."</string>
+    <string name="dlg_msg_verify_certificate">"L'identité de l'ordinateur distant ne peut pas être vérifiée. Voulez-vous poursuivre la connexion?"</string>
+    <string name="dlg_save_bookmark">"Voulez-vous enregistrer les modifications que vous avez apportées aux paramètres de connexion?"</string>
+    <string name="dlg_title_about">"À propos de aFreeRDP"</string>
+    <string name="dlg_title_clear_cert_cache">"Êtes-vous sûrs de vouloir supprimer les certificats?"</string>
+    <string name="dlg_title_create_bookmark_after_qc">"Enregistrer les paramètres de connexion?"</string>
+    <string name="dlg_title_create_shortcut">"Créer un raccourci"</string>
+    <string name="dlg_title_credentials">"Veuillez entrer votre nom d'usager et mot de passe"</string>
+    <string name="dlg_title_exit">"Quittez l'application?"</string>
+    <string name="dlg_title_save_bookmark">"Enregistrer la connexion?"</string>
+    <string name="dlg_title_verify_certificate">"Validation de certificat"</string>
+    <string name="error_bookmark_incomplete">"Appuyez sur \"Annuler\" pour annuler, ou cliquez sur «Continuer» pour spécifier les champs obligatoires."</string>
+    <string name="error_bookmark_incomplete_title">"Annuler sans enregistrer?"</string>
+    <string name="error_connection_failure">"Impossible d'établir une connexion au serveur!"</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Paramètres avancés"</string>
+    <string name="info_capabilities_changed">"Les paramètres de l'écran ont changé parce que le serveur ne prend pas en charge les paramètres que vous avez spécifiés!"</string>
+    <string name="info_reset_failed">"Impossible de supprimer la cache de certificat!"</string>
+    <string name="info_reset_success">"La cache de certificats a été supprimée!"</string>
+    <string name="list_placeholder_add_bookmark">"Ajouter une connexion"</string>
+    <string name="list_placeholder_connecting">"Connexion..."</string>
+    <string name="list_placeholder_connection_error">"Perte de la connexion"</string>
+    <string name="list_placeholder_disconnecting">"Déconnexion…"</string>
+    <string name="list_placeholder_invalid_username">"Nom d'utilisateur invalide"</string>
+    <string name="list_placeholder_login">"Se connecter"</string>
+    <string name="list_placeholder_no_servers">"Pas de connexion"</string>
+    <string name="list_placeholder_wrong_password">"Mot de passe incorrect"</string>
+    <string name="login">"Se connecter"</string>
+    <string name="logout">"Déconnexion"</string>
+    <string name="menu_about">"À propos"</string>
+    <string name="menu_app_settings">"Paramètres"</string>
+    <string name="menu_connect">"Connexion"</string>
+    <string name="menu_delete">"Supprimer"</string>
+    <string name="menu_disconnect">"Se déconnecter"</string>
+    <string name="menu_edit">"Éditer"</string>
+    <string name="menu_exit">"Quitter"</string>
+    <string name="menu_ext_keyboard">"Touches de fonction"</string>
+    <string name="menu_help">"Aide"</string>
+    <string name="menu_home">"Accueil"</string>
+    <string name="menu_new_bookmark">"Nouvelle connexion"</string>
+    <string name="menu_sys_keyboard">"Clavier"</string>
+    <string name="menu_title_bookmark">"Connexion"</string>
+    <string name="menu_touch_pointer">"Pointeur tactile"</string>
+    <string name="no">"Non"</string>
+    <string msgid="6573031135582639649" name="not_set">"Non définie"</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" copié dans le presse-papier."</string>
+    <string name="preference_title_client">Client</string>
+    <string name="preference_title_client_name">Identifiant</string>
+    <string name="resolution_automatic">"Automatique"</string>
+    <string name="resolution_custom">"Personalisé"</string>
+    <string name="resolution_fit">"Agrandir la fenêtre"</string>
+    <string name="search_hint">"Connexion à l'ordinateur"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Rechercher"</string>
+    <string name="section_active_sessions">"Sessions actives"</string>
+    <string name="section_bookmarks">"Connexions manuelles"</string>
+    <string name="settings_advanced">"Avancé"</string>
+    <string name="settings_async_channel">Async channel</string>
+    <string name="settings_async_input">Async input</string>
+    <string name="settings_async_update">Async update</string>
+    <string name="settings_cat_advanced">"Paramètres avancés"</string>
+    <string name="settings_cat_client">Client</string>
+    <string name="settings_cat_credentials">"Authentifiant"</string>
+    <string name="settings_cat_gateway">Gateway</string>
+    <string name="settings_cat_host">"Hôte"</string>
+    <string name="settings_cat_performance">"Paramètres de performance"</string>
+    <string name="settings_cat_power">"Economie d'énergie"</string>
+    <string name="settings_cat_screen">"Paramètres d'écran"</string>
+    <string name="settings_cat_security">"Securité"</string>
+    <string name="settings_cat_settings">"Paramètres"</string>
+    <string name="settings_cat_ui">"Interface utilisateur"</string>
+    <string name="settings_colors">"Couleurs"</string>
+    <string name="settings_console_mode">"Mode console"</string>
+    <string name="settings_credentials">"Authentifiant"</string>
+    <string name="settings_debug">Debug Settings</string>
+    <string name="settings_description_after_minutes">"Après %1$d minutes"</string>
+    <string name="settings_description_disabled">"Désactivé"</string>
+    <string name="settings_domain">"Nom de domaine"</string>
+    <string name="settings_enable_3g_settings">"Paramètres 3G"</string>
+    <string name="settings_enable_gateway_settings">Enable Gateway</string>
+    <string name="settings_gateway_settings">Gateway Settings</string>
+    <string name="settings_height">"Hauteur"</string>
+    <string name="settings_hostname">"Hôte"</string>
+    <string name="settings_label">"Étiquette"</string>
+    <string name="settings_password">"Mot de passe"</string>
+    <string name="settings_password_empty">"Valeur non définie"</string>
+    <string name="settings_password_present">"*******"</string>
+    <string name="settings_perf_desktop_composition">"Effets visuels Aero"</string>
+    <string name="settings_perf_font_smoothing">"Lissage des polices"</string>
+    <string name="settings_perf_full_window_drag">"Afficher le contenu des fenêtres en mouvement"</string>
+    <string name="settings_perf_menu_animation">"Animations de menu"</string>
+    <string name="settings_perf_remotefx">"RemoteFX"</string>
+    <string name="settings_perf_theming">"Styles visuels"</string>
+    <string name="settings_perf_wallpaper">"Fond d'écran"</string>
+    <string name="settings_performance">"Performance"</string>
+    <string name="settings_performance_3g">"Performance 3G"</string>
+    <string name="settings_port">"Port"</string>
+    <string name="settings_power_disconnect_timeout">"Fermer les connexions inactives"</string>
+    <string name="settings_redirect_microphone">Redirect Microphone</string>
+    <string name="settings_redirect_sdcard">"Redirect SDCard"</string>
+    <string name="settings_redirect_sound">Redirect Sound</string>
+    <string name="settings_remote_program">"Lancement de programme"</string>
+    <string name="settings_resolution">"Résolution"</string>
+    <string name="settings_screen">"Écran"</string>
+    <string name="settings_screen_3g">"Écran 3G"</string>
+    <string name="settings_security">"Securité"</string>
+    <string name="settings_security_accept_certificates">"Accepter tous les certificats"</string>
+    <string name="settings_security_clear_certificate_cache">"Vider la cache de certificats"</string>
+    <string name="settings_ui_ask_on_exit">"Confirmer au moment de quitter"</string>
+    <string name="settings_ui_auto_scroll_touchpointer">"Défilement automatique du pointeur tactile"</string>
+    <string name="settings_ui_hide_action_bar">\"Masquer la barre d\'action\"</string>
+    <string name="settings_ui_hide_status_bar">"Masquer la barre d'état"</string>
+    <string name="settings_ui_hide_zoom_controls">"Masquer les contrôles zoom"</string>
+    <string name="settings_ui_invert_scrolling">"Inverser le défilement de la souris"</string>
+    <string name="settings_ui_swap_mouse_buttons">"Inverser les boutons de la souris"</string>
+    <string name="settings_username">"Nom d'utilisateur"</string>
+    <string name="settings_width">"Largeur"</string>
+    <string name="settings_work_dir">"Répertoire de travail"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="title_about">"À propos"</string>
+    <string name="title_application_settings">"Paramètres"</string>
+    <string name="title_bookmark_settings">"Paramètres de connexion"</string>
+    <string name="title_create_shortcut">"Connexions RDP"</string>
+    <string name="title_help">"Aide"</string>
+    <string name="title_home">"aFreeRDP - FreeRDP pour Android"</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"DÉSACTIVÉ"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"ACTIVÉ"</string>
+    <string name="yes">"Oui"</string>
+</resources>

@@ -1,0 +1,150 @@
+com/freerdp/freerdpcore/domain/ManualBookmark.java
+ com.freerdp.freerdpcore.domain.ManualBookmark
+ com.freerdp.freerdpcore.domain.ManualBookmark$1
+ com.freerdp.freerdpcore.domain.ManualBookmark$GatewaySettings
+ com.freerdp.freerdpcore.domain.ManualBookmark$GatewaySettings$1
+com/freerdp/freerdpcore/presentation/HomeActivity.java
+ com.freerdp.freerdpcore.presentation.HomeActivity
+ com.freerdp.freerdpcore.presentation.HomeActivity$1
+ com.freerdp.freerdpcore.presentation.HomeActivity$2
+ com.freerdp.freerdpcore.presentation.HomeActivity$3
+ com.freerdp.freerdpcore.presentation.HomeActivity$4
+ com.freerdp.freerdpcore.presentation.HomeActivity$5
+ com.freerdp.freerdpcore.presentation.HomeActivity$SuperBarTextWatcher
+com/freerdp/freerdpcore/presentation/SessionView.java
+ com.freerdp.freerdpcore.presentation.SessionView
+ com.freerdp.freerdpcore.presentation.SessionView$1
+ com.freerdp.freerdpcore.presentation.SessionView$SessionDoubleGestureListener
+ com.freerdp.freerdpcore.presentation.SessionView$SessionGestureListener
+ com.freerdp.freerdpcore.presentation.SessionView$SessionViewListener
+com/freerdp/freerdpcore/BuildConfig.java
+ com.freerdp.freerdpcore.BuildConfig
+com/freerdp/freerdpcore/utils/IntEditTextPreference.java
+ com.freerdp.freerdpcore.utils.IntEditTextPreference
+com/freerdp/freerdpcore/application/SessionState.java
+ com.freerdp.freerdpcore.application.SessionState
+ com.freerdp.freerdpcore.application.SessionState$1
+com/freerdp/freerdpcore/services/HistoryDB.java
+ com.freerdp.freerdpcore.services.HistoryDB
+com/freerdp/freerdpcore/services/SessionRequestHandlerActivity.java
+ com.freerdp.freerdpcore.services.SessionRequestHandlerActivity
+com/freerdp/freerdpcore/utils/AppCompatPreferenceActivity.java
+ com.freerdp.freerdpcore.utils.AppCompatPreferenceActivity
+com/freerdp/freerdpcore/application/NetworkStateReceiver.java
+ com.freerdp.freerdpcore.application.NetworkStateReceiver
+com/freerdp/freerdpcore/application/ScreenReceiver.java
+ com.freerdp.freerdpcore.application.ScreenReceiver
+com/freerdp/freerdpcore/application/GlobalApp.java
+ com.freerdp.freerdpcore.application.GlobalApp
+ com.freerdp.freerdpcore.application.GlobalApp$1
+ com.freerdp.freerdpcore.application.GlobalApp$DisconnectTask
+com/freerdp/freerdpcore/utils/IntListPreference.java
+ com.freerdp.freerdpcore.utils.IntListPreference
+com/freerdp/freerdpcore/presentation/SessionActivity.java
+ com.freerdp.freerdpcore.presentation.SessionActivity
+ com.freerdp.freerdpcore.presentation.SessionActivity$1
+ com.freerdp.freerdpcore.presentation.SessionActivity$2
+ com.freerdp.freerdpcore.presentation.SessionActivity$3
+ com.freerdp.freerdpcore.presentation.SessionActivity$4
+ com.freerdp.freerdpcore.presentation.SessionActivity$5
+ com.freerdp.freerdpcore.presentation.SessionActivity$6
+ com.freerdp.freerdpcore.presentation.SessionActivity$7
+ com.freerdp.freerdpcore.presentation.SessionActivity$8
+ com.freerdp.freerdpcore.presentation.SessionActivity$9
+ com.freerdp.freerdpcore.presentation.SessionActivity$LibFreeRDPBroadcastReceiver
+ com.freerdp.freerdpcore.presentation.SessionActivity$PinchZoomListener
+ com.freerdp.freerdpcore.presentation.SessionActivity$UIHandler
+com/freerdp/freerdpcore/presentation/BookmarkActivity.java
+ com.freerdp.freerdpcore.presentation.BookmarkActivity
+ com.freerdp.freerdpcore.presentation.BookmarkActivity$1
+ com.freerdp.freerdpcore.presentation.BookmarkActivity$2
+ com.freerdp.freerdpcore.presentation.BookmarkActivity$3
+ com.freerdp.freerdpcore.presentation.BookmarkActivity$4
+com/freerdp/freerdpcore/domain/ConnectionReference.java
+ com.freerdp.freerdpcore.domain.ConnectionReference
+com/freerdp/freerdpcore/services/ManualBookmarkGateway.java
+ com.freerdp.freerdpcore.services.ManualBookmarkGateway
+com/freerdp/freerdpcore/domain/BookmarkBase.java
+ com.freerdp.freerdpcore.domain.BookmarkBase
+ com.freerdp.freerdpcore.domain.BookmarkBase$1
+ com.freerdp.freerdpcore.domain.BookmarkBase$AdvancedSettings
+ com.freerdp.freerdpcore.domain.BookmarkBase$AdvancedSettings$1
+ com.freerdp.freerdpcore.domain.BookmarkBase$DebugSettings
+ com.freerdp.freerdpcore.domain.BookmarkBase$DebugSettings$1
+ com.freerdp.freerdpcore.domain.BookmarkBase$PerformanceFlags
+ com.freerdp.freerdpcore.domain.BookmarkBase$PerformanceFlags$1
+ com.freerdp.freerdpcore.domain.BookmarkBase$ScreenSettings
+ com.freerdp.freerdpcore.domain.BookmarkBase$ScreenSettings$1
+com/freerdp/freerdpcore/presentation/ShortcutsActivity.java
+ com.freerdp.freerdpcore.presentation.ShortcutsActivity
+ com.freerdp.freerdpcore.presentation.ShortcutsActivity$1
+ com.freerdp.freerdpcore.presentation.ShortcutsActivity$2
+ com.freerdp.freerdpcore.presentation.ShortcutsActivity$3
+com/freerdp/freerdpcore/services/FreeRDPSuggestionProvider.java
+ com.freerdp.freerdpcore.services.FreeRDPSuggestionProvider
+com/freerdp/freerdpcore/utils/RDPFileParser.java
+ com.freerdp.freerdpcore.utils.RDPFileParser
+com/freerdp/freerdpcore/utils/DoubleGestureDetector.java
+ com.freerdp.freerdpcore.utils.DoubleGestureDetector
+ com.freerdp.freerdpcore.utils.DoubleGestureDetector$GestureHandler
+ com.freerdp.freerdpcore.utils.DoubleGestureDetector$OnDoubleGestureListener
+com/freerdp/freerdpcore/domain/QuickConnectBookmark.java
+ com.freerdp.freerdpcore.domain.QuickConnectBookmark
+ com.freerdp.freerdpcore.domain.QuickConnectBookmark$1
+com/freerdp/freerdpcore/utils/SeparatedListAdapter.java
+ com.freerdp.freerdpcore.utils.SeparatedListAdapter
+com/freerdp/freerdpcore/utils/Mouse.java
+ com.freerdp.freerdpcore.utils.Mouse
+com/freerdp/freerdpcore/utils/ButtonPreference.java
+ com.freerdp.freerdpcore.utils.ButtonPreference
+com/freerdp/freerdpcore/utils/BookmarkArrayAdapter.java
+ com.freerdp.freerdpcore.utils.BookmarkArrayAdapter
+ com.freerdp.freerdpcore.utils.BookmarkArrayAdapter$1
+com/freerdp/freerdpcore/utils/GestureDetector.java
+ com.freerdp.freerdpcore.utils.GestureDetector
+ com.freerdp.freerdpcore.utils.GestureDetector$GestureHandler
+ com.freerdp.freerdpcore.utils.GestureDetector$OnDoubleTapListener
+ com.freerdp.freerdpcore.utils.GestureDetector$OnGestureListener
+ com.freerdp.freerdpcore.utils.GestureDetector$SimpleOnGestureListener
+com/freerdp/freerdpcore/services/BookmarkDB.java
+ com.freerdp.freerdpcore.services.BookmarkDB
+com/freerdp/freerdpcore/presentation/ScrollView2D.java
+ com.freerdp.freerdpcore.presentation.ScrollView2D
+ com.freerdp.freerdpcore.presentation.ScrollView2D$ScrollView2DListener
+com/freerdp/freerdpcore/services/QuickConnectHistoryGateway.java
+ com.freerdp.freerdpcore.services.QuickConnectHistoryGateway
+com/freerdp/freerdpcore/domain/PlaceholderBookmark.java
+ com.freerdp.freerdpcore.domain.PlaceholderBookmark
+ com.freerdp.freerdpcore.domain.PlaceholderBookmark$1
+com/freerdp/freerdpcore/services/LibFreeRDP.java
+ com.freerdp.freerdpcore.services.LibFreeRDP
+ com.freerdp.freerdpcore.services.LibFreeRDP$EventListener
+ com.freerdp.freerdpcore.services.LibFreeRDP$UIEventListener
+com/freerdp/freerdpcore/utils/KeyboardMapper.java
+ com.freerdp.freerdpcore.utils.KeyboardMapper
+ com.freerdp.freerdpcore.utils.KeyboardMapper$KeyProcessingListener
+com/freerdp/freerdpcore/presentation/TouchPointerView.java
+ com.freerdp.freerdpcore.presentation.TouchPointerView
+ com.freerdp.freerdpcore.presentation.TouchPointerView$1
+ com.freerdp.freerdpcore.presentation.TouchPointerView$TouchPointerGestureListener
+ com.freerdp.freerdpcore.presentation.TouchPointerView$TouchPointerListener
+ com.freerdp.freerdpcore.presentation.TouchPointerView$UIHandler
+com/freerdp/freerdpcore/utils/ClipboardManagerProxy.java
+ com.freerdp.freerdpcore.utils.ClipboardManagerProxy
+ com.freerdp.freerdpcore.utils.ClipboardManagerProxy$HCClipboardManager
+ com.freerdp.freerdpcore.utils.ClipboardManagerProxy$OnClipboardChangedListener
+ com.freerdp.freerdpcore.utils.ClipboardManagerProxy$PreHCClipboardManager
+com/freerdp/freerdpcore/presentation/AboutActivity.java
+ com.freerdp.freerdpcore.presentation.AboutActivity
+com/freerdp/freerdpcore/services/BookmarkBaseGateway.java
+ com.freerdp.freerdpcore.services.BookmarkBaseGateway
+com/freerdp/freerdpcore/presentation/HelpActivity.java
+ com.freerdp.freerdpcore.presentation.HelpActivity
+com/freerdp/freerdpcore/presentation/ApplicationSettingsActivity.java
+ com.freerdp.freerdpcore.presentation.ApplicationSettingsActivity
+ com.freerdp.freerdpcore.presentation.ApplicationSettingsActivity$ClientPreferenceFragment
+ com.freerdp.freerdpcore.presentation.ApplicationSettingsActivity$PowerPreferenceFragment
+ com.freerdp.freerdpcore.presentation.ApplicationSettingsActivity$SecurityPreferenceFragment
+ com.freerdp.freerdpcore.presentation.ApplicationSettingsActivity$SecurityPreferenceFragment$1
+ com.freerdp.freerdpcore.presentation.ApplicationSettingsActivity$SecurityPreferenceFragment$2
+ com.freerdp.freerdpcore.presentation.ApplicationSettingsActivity$UiPreferenceFragment

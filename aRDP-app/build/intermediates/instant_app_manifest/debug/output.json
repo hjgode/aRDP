@@ -1,0 +1,1 @@
+[{"outputType":{"type":"INSTANT_APP_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":115104,"versionName":"v5.1.0","enabled":true,"outputFile":"aRDP-app-debug.apk","fullName":"debug","baseName":"debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.iiordanov.aRDP","split":"","minSdkVersion":"21"}}]
