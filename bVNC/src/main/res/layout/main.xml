@@ -515,5 +515,11 @@
             android:layout_height="wrap_content"
             android:text="@string/copy_logcat"
             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/checkBox_kioskmode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kiosk Mode" />
     </LinearLayout>
 </ScrollView>

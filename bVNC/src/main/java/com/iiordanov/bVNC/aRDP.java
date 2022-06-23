@@ -91,13 +91,15 @@ public class aRDP extends MainConfiguration {
     private CheckBox checkboxEnableGfx;
     private CheckBox checkboxEnableGfxH264;
     private CheckBox checkboxPreferSendingUnicode;
+    private CheckBox checkboxKioskMode; //kioskmode
 
     @Override
     public void onCreate(Bundle icicle) {
         layoutID = R.layout.main_rdp;
 
         super.onCreate(icicle);
-        
+        checkboxKioskMode=findViewById(R.id.checkBox_kioskmode);    //kioskmode
+
         sshServer = (EditText) findViewById(R.id.sshServer);
         sshPort = (EditText) findViewById(R.id.sshPort);
         sshUser = (EditText) findViewById(R.id.sshUser);
@@ -188,6 +190,7 @@ public class aRDP extends MainConfiguration {
             passwordText.setText(selected.getPassword());
         }
 
+        checkboxKioskMode.setChecked(selected.getKioskMode()); //kioskmode
         checkboxKeepPassword.setChecked(selected.getKeepPassword());
         checkboxUseDpadAsArrows.setChecked(selected.getUseDpadAsArrows());
         checkboxRotateDpad.setChecked(selected.getRotateDpad());
@@ -245,6 +248,8 @@ public class aRDP extends MainConfiguration {
         selected.setNickname(textNickname.getText().toString());
         selected.setSshServer(sshServer.getText().toString());
         selected.setSshUser(sshUser.getText().toString());
+
+        selected.setUseKioskMode(checkboxKioskMode.isChecked());
 
         // If we are using an SSH key, then the ssh password box is used
         // for the key pass-phrase instead.

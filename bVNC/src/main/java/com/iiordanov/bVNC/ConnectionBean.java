@@ -356,14 +356,14 @@ public class ConnectionBean extends AbstractConnectionBean implements Connection
 
     }
 
+    //kisokmode
     @Override
     public void setKioskMode(boolean bkioskmode){
-
+        setUseKioskMode(bkioskmode);
     }
-
     @Override
     public boolean getKioskMode(){
-        return false;
+        return getUseKioskMode();
     }
 
     public synchronized void save(Context c) {

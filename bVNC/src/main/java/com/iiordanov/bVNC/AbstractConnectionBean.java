@@ -179,7 +179,7 @@ public abstract class AbstractConnectionBean extends com.antlersoft.android.dbim
 
     //kisokmode
     public static final String GEN_FIELD_USEKIOSKMODE = "USEKIOSKMODE";
-    public static final int GEN_ID_USEKIOSKMODE = 81;
+    public static final int GEN_ID_USEKIOSKMODE = 82;
 
     // SQL Command for creating the table
     public static String GEN_CREATE = "CREATE TABLE CONNECTION_BEAN (" +
