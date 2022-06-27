@@ -84,6 +84,8 @@ public class bVNC extends MainConfiguration {
     private CheckBox checkboxViewOnly;
     private boolean repeaterTextSet;
 
+    private CheckBox checkboxKioskMode;
+
     private Spinner spinnerVncGeometry;
     private EditText resWidth;
     private EditText resHeight;
@@ -113,6 +115,8 @@ public class bVNC extends MainConfiguration {
                 showDialog(R.layout.repeater_dialog);
             }
         });
+
+        checkboxKioskMode=findViewById(R.id.checkBox_kioskmode); //kioskmode
 
         // Here we say what happens when the Pubkey Checkbox is checked/unchecked.
         checkboxUseSshPubkey = (CheckBox) findViewById(R.id.checkboxUseSshPubkey);
@@ -312,6 +316,9 @@ public class bVNC extends MainConfiguration {
         checkboxViewOnly.setChecked(selected.getViewOnly());
         textNickname.setText(selected.getNickname());
         textUsername.setText(selected.getUserName());
+
+        checkboxKioskMode.setChecked(selected.getKioskMode());  //kioskmode
+
         COLORMODEL cm = COLORMODEL.C24bit;
         try {
             cm = COLORMODEL.valueOf(selected.getColorModel());
@@ -379,6 +386,7 @@ public class bVNC extends MainConfiguration {
         selected.setUseDpadAsArrows(checkboxUseDpadAsArrows.isChecked());
         selected.setRotateDpad(checkboxRotateDpad.isChecked());
         selected.setUseLastPositionToolbar(checkboxUseLastPositionToolbar.isChecked());
+        selected.setKioskMode(checkboxKioskMode.isChecked());  //kioskmode
         if (!checkboxUseLastPositionToolbar.isChecked()) {
             selected.setUseLastPositionToolbarMoved(false);
         }

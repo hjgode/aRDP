@@ -264,7 +264,7 @@ public abstract class AbstractConnectionBean extends com.antlersoft.android.dbim
     "SCREENSHOTFILENAME TEXT," +
     "ENABLEGFX INTEGER," +
     "ENABLEGFXH264 INTEGER," +
-    "PREFERSENDINGUNICODE INTEGER" +
+    "PREFERSENDINGUNICODE INTEGER," +
             "USEKIOSKMODE INTEGER" + //kioskmode
     ")";
 

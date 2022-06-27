@@ -18,6 +18,23 @@
 *.zip
 *.tar.gz
 *.rar
+*.dex
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+
 hs_err_pid*
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/intermediate/
+/intermediates/
+/build
+/captures
+.externalNativeBuild
+
+
+/aRDP-app/build/
+/bVNC/build/
+/pubkeyGenerator/build/
+/remoteClientLib/build/

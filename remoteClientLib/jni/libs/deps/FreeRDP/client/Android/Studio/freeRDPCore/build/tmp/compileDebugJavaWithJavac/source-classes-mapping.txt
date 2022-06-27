@@ -38,8 +38,12 @@ com/freerdp/freerdpcore/application/GlobalApp.java
  com.freerdp.freerdpcore.application.GlobalApp
  com.freerdp.freerdpcore.application.GlobalApp$1
  com.freerdp.freerdpcore.application.GlobalApp$DisconnectTask
-com/freerdp/freerdpcore/utils/IntListPreference.java
- com.freerdp.freerdpcore.utils.IntListPreference
+com/freerdp/freerdpcore/presentation/BookmarkActivity.java
+ com.freerdp.freerdpcore.presentation.BookmarkActivity
+ com.freerdp.freerdpcore.presentation.BookmarkActivity$1
+ com.freerdp.freerdpcore.presentation.BookmarkActivity$2
+ com.freerdp.freerdpcore.presentation.BookmarkActivity$3
+ com.freerdp.freerdpcore.presentation.BookmarkActivity$4
 com/freerdp/freerdpcore/presentation/SessionActivity.java
  com.freerdp.freerdpcore.presentation.SessionActivity
  com.freerdp.freerdpcore.presentation.SessionActivity$1
@@ -54,12 +58,8 @@ com/freerdp/freerdpcore/presentation/SessionActivity.java
  com.freerdp.freerdpcore.presentation.SessionActivity$LibFreeRDPBroadcastReceiver
  com.freerdp.freerdpcore.presentation.SessionActivity$PinchZoomListener
  com.freerdp.freerdpcore.presentation.SessionActivity$UIHandler
-com/freerdp/freerdpcore/presentation/BookmarkActivity.java
- com.freerdp.freerdpcore.presentation.BookmarkActivity
- com.freerdp.freerdpcore.presentation.BookmarkActivity$1
- com.freerdp.freerdpcore.presentation.BookmarkActivity$2
- com.freerdp.freerdpcore.presentation.BookmarkActivity$3
- com.freerdp.freerdpcore.presentation.BookmarkActivity$4
+com/freerdp/freerdpcore/utils/IntListPreference.java
+ com.freerdp.freerdpcore.utils.IntListPreference
 com/freerdp/freerdpcore/domain/ConnectionReference.java
  com.freerdp.freerdpcore.domain.ConnectionReference
 com/freerdp/freerdpcore/services/ManualBookmarkGateway.java
@@ -93,21 +93,21 @@ com/freerdp/freerdpcore/domain/QuickConnectBookmark.java
  com.freerdp.freerdpcore.domain.QuickConnectBookmark$1
 com/freerdp/freerdpcore/utils/SeparatedListAdapter.java
  com.freerdp.freerdpcore.utils.SeparatedListAdapter
-com/freerdp/freerdpcore/utils/Mouse.java
- com.freerdp.freerdpcore.utils.Mouse
 com/freerdp/freerdpcore/utils/ButtonPreference.java
  com.freerdp.freerdpcore.utils.ButtonPreference
+com/freerdp/freerdpcore/utils/Mouse.java
+ com.freerdp.freerdpcore.utils.Mouse
 com/freerdp/freerdpcore/utils/BookmarkArrayAdapter.java
  com.freerdp.freerdpcore.utils.BookmarkArrayAdapter
  com.freerdp.freerdpcore.utils.BookmarkArrayAdapter$1
+com/freerdp/freerdpcore/services/BookmarkDB.java
+ com.freerdp.freerdpcore.services.BookmarkDB
 com/freerdp/freerdpcore/utils/GestureDetector.java
  com.freerdp.freerdpcore.utils.GestureDetector
  com.freerdp.freerdpcore.utils.GestureDetector$GestureHandler
  com.freerdp.freerdpcore.utils.GestureDetector$OnDoubleTapListener
  com.freerdp.freerdpcore.utils.GestureDetector$OnGestureListener
  com.freerdp.freerdpcore.utils.GestureDetector$SimpleOnGestureListener
-com/freerdp/freerdpcore/services/BookmarkDB.java
- com.freerdp.freerdpcore.services.BookmarkDB
 com/freerdp/freerdpcore/presentation/ScrollView2D.java
  com.freerdp.freerdpcore.presentation.ScrollView2D
  com.freerdp.freerdpcore.presentation.ScrollView2D$ScrollView2DListener

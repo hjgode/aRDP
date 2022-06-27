@@ -715,8 +715,6 @@ public class RemoteCanvasActivity extends AppCompatActivity implements OnKeyList
      * Initializes the on-screen keys for meta keys and arrow keys.
      */
     private void initializeOnScreenKeys () {
-        if(connection.getKioskMode()) //kioskmode
-            return;
         layoutKeys = (RelativeLayout) findViewById(R.id.layoutKeys);
         layoutArrowKeys = (LinearLayout) findViewById(R.id.layoutArrowKeys);
 
@@ -958,6 +956,9 @@ public class RemoteCanvasActivity extends AppCompatActivity implements OnKeyList
                 return false;
             }
         });
+        if(connection.getKioskMode()) //kioskmode
+            layoutKeys.setVisibility(View.GONE);
+
     }
 
     /**
@@ -993,6 +994,7 @@ public class RemoteCanvasActivity extends AppCompatActivity implements OnKeyList
      */
     private void setExtraKeysVisibility (int visibility, boolean forceVisible) {
         Configuration config = getResources().getConfiguration();
+        Log.d(TAG, "setExtraKeysVisibility called with visibility=" + visibility);
         //Log.e(TAG, "Hardware kbd hidden: " + Integer.toString(config.hardKeyboardHidden));
         //Log.e(TAG, "Any keyboard hidden: " + Integer.toString(config.keyboardHidden));
         //Log.e(TAG, "Keyboard type: " + Integer.toString(config.keyboard));
@@ -1612,6 +1614,11 @@ public class RemoteCanvasActivity extends AppCompatActivity implements OnKeyList
     ToolbarHiderRunnable toolbarHider = new ToolbarHiderRunnable();
     
     public void showToolbar() {
+        if (connection.getKioskMode()) {
+            handler.removeCallbacks(toolbarHider);
+            handler.postAtTime(toolbarHider, SystemClock.uptimeMillis() + hideToolbarDelay);
+            return;
+        }
         getSupportActionBar().show();
         handler.removeCallbacks(toolbarHider);
         handler.postAtTime(toolbarHider, SystemClock.uptimeMillis() + hideToolbarDelay);
